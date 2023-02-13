@@ -74,26 +74,26 @@ function waitAndResponce(inputText) {
             }, 2000);
             break;
         case "help":
-            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about me...<br>e.g<br><span class='bold'>'placementresources'</span> - to get the placement related resources<br><span class='bold'>'interviewquestions'</span> - to get the interview question resources<br><span class='bold'>'technologies'</span> - to get the technology resources<br><span class='bold'>'sdesheets'</span> - to get all sde sheets<br><span class='bold'>'cseebooks'</span> - to get the ebooks<br><span class='bold'>'pbctaggedquestions'</span> - to get the pbc tagged questions<br><span class='bold'>'address'</span> - to get my address<br><span class='bold'>'github'</span> - to get details of my projects<br><span class='bold'>'clear'</span> - to clear conversation<br><span class='bold'>'about'</span> - to know about this site</span>");
+            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about this...<br>e.g<br><span class='bold'>'placementresources'</span> - to get the placement related resources<br><span class='bold'>'interviewquestions'</span> - to get the interview question resources<br><span class='bold'>'technologies'</span> - to get the technology resources<br><span class='bold'>'sdesheets'</span> - to get all sde sheets<br><span class='bold'>'cseebooks'</span> - to get the ebooks<br><span class='bold'>'pbctaggedquestions'</span> - to get the pbc tagged questions<br><span class='bold'>'address'</span> - to get my address<br><span class='bold'>'github'</span> - to get details of my projects<br><span class='bold'>'clear'</span> - to clear conversation<br><span class='bold'>'about'</span> - to know about this site</span>");
             break;    
             
         case "placementresources":
             sendTextMessage("Select only one ...<br><br>(type name as it is..) <br><br>1. aptitude<br>2. sampleresumes<br>3. sdeinterviewguide<br>4. softskills<br>5. topsitesforeducation<br><br>");
             break;    
         case "topsitesforeducation":
-            sendTextMessage(" <br><br><div class='social'><a target='_blank' href='https://drive.google.com/drive/folders/1A0830S82AD99Ts6DbZaVKleHzgKkvkec?usp=share_link'><img class='socialItemI' alt=''></div> </a></div>");
+            sendTextMessage(" click here<br><br><div class='social'><a target='_blank' href='https://drive.google.com/drive/folders/1A0830S82AD99Ts6DbZaVKleHzgKkvkec?usp=share_link'> <div class='socialItem'><img class='socialItemI' alt=''></div> </a></div>");
             break;         
         case "softskills":
-            sendTextMessage(" <br><br><div class='social'><a target='_blank' href='https://drive.google.com/drive/folders/1lhCyUBv6JO6Fi2iBV4fH47q-vRMKEfeU?usp=share_link'><img class='socialItemI' alt=''></div> </a></div>");
+            sendTextMessage(" click here<br><br><div class='social'><a target='_blank' href='https://drive.google.com/drive/folders/1lhCyUBv6JO6Fi2iBV4fH47q-vRMKEfeU?usp=share_link'> <div class='socialItem'><img class='socialItemI' alt=''></div> </a></div>");
             break;         
         case "sdeinterviewguide":
-            sendTextMessage(" <br><br><div class='social'><a target='_blank' href='https://drive.google.com/drive/folders/1u8zuYTsRc1gpG9H6kbKSZKKUsJDkYZjh?usp=share_link'><img class='socialItemI' alt=''></div> </a></div>");
+            sendTextMessage("click here <br><br><div class='social'><a target='_blank' href='https://drive.google.com/drive/folders/1u8zuYTsRc1gpG9H6kbKSZKKUsJDkYZjh?usp=share_link'> <div class='socialItem'><img class='socialItemI' alt=''></div> </a></div>");
             break;         
         case "sampleresumes":
-            sendTextMessage(" <br><br><div class='social'><a target='_blank' href='https://drive.google.com/drive/folders/1iGt83p5MHdIgB_BYU2a-lblcLccYKiOn?usp=share_link'><img class='socialItemI' alt=''></div> </a></div>");
+            sendTextMessage("click here <br><br><div class='social'><a target='_blank' href='https://drive.google.com/drive/folders/1iGt83p5MHdIgB_BYU2a-lblcLccYKiOn?usp=share_link'> <div class='socialItem'><img class='socialItemI' alt=''></div> </a></div>");
             break;        
         case "aptitude":
-            sendTextMessage(" <br><br><div class='social'><a target='_blank' href='https://drive.google.com/drive/folders/14Q_zEwfaVr2l1r5xpxDYVPObaKDU_izd?usp=share_link'><img class='socialItemI' alt=''></div> </a></div>");
+            sendTextMessage("click here <br><br><div class='social'><a target='_blank' href='https://drive.google.com/drive/folders/14Q_zEwfaVr2l1r5xpxDYVPObaKDU_izd?usp=share_link'> <div class='socialItem'><img class='socialItemI' alt=''></div> </a></div>");
             break; 
             
             
@@ -103,19 +103,19 @@ function waitAndResponce(inputText) {
             sendTextMessage("Select only one subject <br><br>(type subject name as it is..) <br><br>1. dbmsandsql<br>2. dsa<br>3. java<br>4. linux<br>5. python<br><br>");
             break;        
         case "python":
-            sendTextMessage(" <br><br><div class='social'><a target='_blank' href='https://drive.google.com/drive/folders/1HukzIXgnFB1UZAaMkhA0n6DxtpDvjeUc?usp=share_link'><img class='socialItemI' alt=''></div> </a></div>");
+            sendTextMessage(" click here<br><br><div class='social'><a target='_blank' href='https://drive.google.com/drive/folders/1HukzIXgnFB1UZAaMkhA0n6DxtpDvjeUc?usp=share_link'> <div class='socialItem'><img class='socialItemI' alt=''></div> </a></div>");
             break;         
         case "linux":
-            sendTextMessage(" <br><br><div class='social'><a target='_blank' href='https://drive.google.com/drive/folders/1XCCU-Vz8ngc0Tkiyj6B1SngrQTEa7jah?usp=share_link'><img class='socialItemI' alt=''></div> </a></div>");
+            sendTextMessage(" click here<br><br><div class='social'><a target='_blank' href='https://drive.google.com/drive/folders/1XCCU-Vz8ngc0Tkiyj6B1SngrQTEa7jah?usp=share_link'> <div class='socialItem'><img class='socialItemI' alt=''></div> </a></div>");
             break;         
         case "dsa":
-            sendTextMessage(" <br><br><div class='social'><a target='_blank' href='https://drive.google.com/drive/folders/1iefE6-41zv7WK-UK_UpPBOTfyTmA1WiA?usp=share_link'><img class='socialItemI' alt=''></div> </a></div>");
+            sendTextMessage(" click hereclick here<br><br><div class='social'><a target='_blank' href='https://drive.google.com/drive/folders/1iefE6-41zv7WK-UK_UpPBOTfyTmA1WiA?usp=share_link'> <div class='socialItem'><img class='socialItemI' alt=''></div> </a></div>");
             break;        
         case "java":
-            sendTextMessage(" <br><br><div class='social'><a target='_blank' href='https://drive.google.com/drive/folders/1klekFK9DcjLGgy2KG8ksEigbScL6U5TR?usp=share_link'><img class='socialItemI' alt=''></div> </a></div>");
+            sendTextMessage("click here <br><br><div class='social'><a target='_blank' href='https://drive.google.com/drive/folders/1klekFK9DcjLGgy2KG8ksEigbScL6U5TR?usp=share_link'> <div class='socialItem'><img class='socialItemI' alt=''></div> </a></div>");
             break;        
         case "dbmsandsql":
-            sendTextMessage(" <br><br><div class='social'><a target='_blank' href='https://drive.google.com/drive/folders/10f43zI7kV4DNJkwzo8MT8UMUMeOdFy7O?usp=share_link'><img class='socialItemI' alt=''></div> </a></div>");
+            sendTextMessage(" click here<br><br><div class='social'><a target='_blank' href='https://drive.google.com/drive/folders/10f43zI7kV4DNJkwzo8MT8UMUMeOdFy7O?usp=share_link'> <div class='socialItem'><img class='socialItemI' alt=''></div> </a></div>");
             break; 
             
             
@@ -124,28 +124,28 @@ function waitAndResponce(inputText) {
             sendTextMessage("Select only one technology <br><br>(type technology name as it is..) <br><br>1. angular<br>2. ai<br>3. blockchaintechnology<br>4. cloudcomputing<br>5. devops<br>6. flutter<br>7. gitandgithub<br>8. webdevelopment<br><br>");
             break;        
         case "webdevelopment":
-            sendTextMessage(" <br><br><div class='social'><a target='_blank' href='https://drive.google.com/drive/folders/1nxLjATVgwzZrYG8PmMJJ1BM-o4s023qf?usp=share_link'><img class='socialItemI' alt=''></div> </a></div>");
+            sendTextMessage(" click here<br><br><div class='social'><a target='_blank' href='https://drive.google.com/drive/folders/1nxLjATVgwzZrYG8PmMJJ1BM-o4s023qf?usp=share_link'> <div class='socialItem'><img class='socialItemI' alt=''></div> </a></div>");
             break;        
         case "gitandgithub":
-            sendTextMessage(" <br><br><div class='social'><a target='_blank' href='https://drive.google.com/drive/folders/196GI96m9geJdcmYuLtYPGy_2iJpsRfTB?usp=share_link'><img class='socialItemI' alt=''></div> </a></div>");
+            sendTextMessage("  click here<br><br><div class='social'><a target='_blank' href='https://drive.google.com/drive/folders/196GI96m9geJdcmYuLtYPGy_2iJpsRfTB?usp=share_link'> <div class='socialItem'><img class='socialItemI' alt=''></div> </a></div>");
             break;        
         case "devops":
-            sendTextMessage(" <br><br><div class='social'><a target='_blank' href='https://drive.google.com/drive/folders/1bRAJ09N-_JQnjfEO1ehaX99QuRW50saK?usp=share_link'><img class='socialItemI' alt=''></div> </a></div>");
+            sendTextMessage(" click here <br><br><div class='social'><a target='_blank' href='https://drive.google.com/drive/folders/1bRAJ09N-_JQnjfEO1ehaX99QuRW50saK?usp=share_link'> <div class='socialItem'><img class='socialItemI' alt=''></div> </a></div>");
             break;        
         case "cloudcomputing":
-            sendTextMessage(" <br><br><div class='social'><a target='_blank' href='https://drive.google.com/drive/folders/1lWR-GtIsz8O1sGpomnrtY6KSYCBQDVsX?usp=share_link'><img class='socialItemI' alt=''></div> </a></div>");
+            sendTextMessage(" click here click here click here click here click here <br><br><div class='social'><a target='_blank' href='https://drive.google.com/drive/folders/1lWR-GtIsz8O1sGpomnrtY6KSYCBQDVsX?usp=share_link'> <div class='socialItem'><img class='socialItemI' alt=''></div> </a></div>");
             break;        
         case "blockchaintechnology":
-            sendTextMessage(" <br><br><div class='social'><a target='_blank' href='https://drive.google.com/drive/folders/1DjzBCUoRnBfJEiEgRqUS7QhV9FU13nEi?usp=share_link'><img class='socialItemI' alt=''></div> </a></div>");
+            sendTextMessage(" click here click here click here click here <br><br><div class='social'><a target='_blank' href='https://drive.google.com/drive/folders/1DjzBCUoRnBfJEiEgRqUS7QhV9FU13nEi?usp=share_link'> <div class='socialItem'><img class='socialItemI' alt=''></div> </a></div>");
             break;        
         case "flutter":
-            sendTextMessage(" <br><br><div class='social'><a target='_blank' href='https://drive.google.com/drive/folders/1FoZ2Pj0rEHhzf2oTVsAAyC37ZydqGk-0?usp=share_link'><img class='socialItemI' alt=''></div> </a></div>");
+            sendTextMessage("  click here click here click here<br><br><div class='social'><a target='_blank' href='https://drive.google.com/drive/folders/1FoZ2Pj0rEHhzf2oTVsAAyC37ZydqGk-0?usp=share_link'> <div class='socialItem'><img class='socialItemI' alt=''></div> </a></div>");
             break;        
         case "ai":
-            sendTextMessage(" <br><br><div class='social'><a target='_blank' href='https://drive.google.com/drive/folders/14gsyRPmo5wm1nPzZ62CvrqBZZl3diHk0?usp=share_link'><img class='socialItemI' alt=''></div> </a></div>");
+            sendTextMessage("  click here click here<br><br><div class='social'><a target='_blank' href='https://drive.google.com/drive/folders/14gsyRPmo5wm1nPzZ62CvrqBZZl3diHk0?usp=share_link'> <div class='socialItem'><img class='socialItemI' alt=''></div> </a></div>");
             break;        
         case "angular":
-            sendTextMessage(" <br><br><div class='social'><a target='_blank' href='https://drive.google.com/drive/folders/1ENH7gjrKWwPjNkK17WCLvPPJkDTvuDUl?usp=share_link'><img class='socialItemI' alt=''></div> </a></div>");
+            sendTextMessage("  click here<br><br><div class='social'><a target='_blank' href='https://drive.google.com/drive/folders/1ENH7gjrKWwPjNkK17WCLvPPJkDTvuDUl?usp=share_link'> <div class='socialItem'><img class='socialItemI' alt=''></div> </a></div>");
             break;
             
             
@@ -154,34 +154,34 @@ function waitAndResponce(inputText) {
             sendTextMessage("all cse ebooks are in pdf format <br><br>(type book name as it is..) <br><br>1. cebook<br>2. c++<br>3. css<br>4. html<br>5. java<br>6. javascript<br>7. kotlin<br>8. python<br>9. reactjs<br>swift<br><br>");
             break;
         case "swift":
-            sendTextMessage("click this one <br><br><div class='social'><a target='_blank' href='https://drive.google.com/file/d/1BHheUCFxDDXmQ0IK0oVD57lbmp7aNXPR/view?usp=share_link'><img class='socialItemI' alt=''></div> </a></div>");
+            sendTextMessage("click this one <br><br><div class='social'><a target='_blank' href='https://drive.google.com/file/d/1BHheUCFxDDXmQ0IK0oVD57lbmp7aNXPR/view?usp=share_link'> <div class='socialItem'><img class='socialItemI' alt=''></div> </a></div>");
             break;        
         case "reactjs":
-            sendTextMessage("click this one <br><br><div class='social'><a target='_blank' href='https://drive.google.com/file/d/1Zvvmrce8oe5UVWda2R-sBHvIDzZc2_lC/view?usp=share_link'><img class='socialItemI' alt=''></div> </a></div>");
+            sendTextMessage("click this one <br><br><div class='social'><a target='_blank' href='https://drive.google.com/file/d/1Zvvmrce8oe5UVWda2R-sBHvIDzZc2_lC/view?usp=share_link'> <div class='socialItem'><img class='socialItemI' alt=''></div> </a></div>");
             break;        
         case "python":
-            sendTextMessage("click this one  <br><br><div class='social'><a target='_blank' href='https://drive.google.com/file/d/1nbrmHolPl6Tb4SvZQ0HzAadN1zsiQsn6/view?usp=share_link'><img class='socialItemI' alt=''></div> </a></div>");
+            sendTextMessage("click this one  <br><br><div class='social'><a target='_blank' href='https://drive.google.com/file/d/1nbrmHolPl6Tb4SvZQ0HzAadN1zsiQsn6/view?usp=share_link'> <div class='socialItem'><img class='socialItemI' alt=''></div> </a></div>");
             break;        
         case "kotlin":
-            sendTextMessage("sclick this one  <br><br><div class='social'><a target='_blank' href='https://drive.google.com/file/d/1K1WjzThd7vBV6ROdSflcgdLuS_0HbpBH/view?usp=share_link'><img class='socialItemI' alt=''></div> </a></div>");
+            sendTextMessage("sclick this one  <br><br><div class='social'><a target='_blank' href='https://drive.google.com/file/d/1K1WjzThd7vBV6ROdSflcgdLuS_0HbpBH/view?usp=share_link'> <div class='socialItem'><img class='socialItemI' alt=''></div> </a></div>");
             break;        
         case "javascript":
-            sendTextMessage("click this one  <br><br><div class='social'><a target='_blank' href='https://drive.google.com/file/d/13TpJMqRsUUYTndzFYNVAoG3FcCOYOeAw/view?usp=share_link'><img class='socialItemI' alt=''></div> </a></div>");
+            sendTextMessage("click this one  <br><br><div class='social'><a target='_blank' href='https://drive.google.com/file/d/13TpJMqRsUUYTndzFYNVAoG3FcCOYOeAw/view?usp=share_link'> <div class='socialItem'><img class='socialItemI' alt=''></div> </a></div>");
             break;        
         case "java":
-            sendTextMessage("click this one  <br><br><div class='social'><a target='_blank' href='https://drive.google.com/file/d/1EB_dkrDTHr2ud-PwhdYxdhRHbiuxDhww/view?usp=share_link'><img class='socialItemI' alt=''></div> </a></div>");
+            sendTextMessage("click this one  <br><br><div class='social'><a target='_blank' href='https://drive.google.com/file/d/1EB_dkrDTHr2ud-PwhdYxdhRHbiuxDhww/view?usp=share_link'> <div class='socialItem'><img class='socialItemI' alt=''></div> </a></div>");
             break;        
         case "html":
-            sendTextMessage("click this one <br><br><div class='social'><a target='_blank' href='https://drive.google.com/file/d/1lgWfbpt7zgoHXwHUPp-tNBxkBqHWEGU2/view?usp=share_link'><img class='socialItemI' alt=''></div> </a></div>");
+            sendTextMessage("click this one <br><br><div class='social'><a target='_blank' href='https://drive.google.com/file/d/1lgWfbpt7zgoHXwHUPp-tNBxkBqHWEGU2/view?usp=share_link'> <div class='socialItem'><img class='socialItemI' alt=''></div> </a></div>");
             break;        
         case "css":
-            sendTextMessage("css <br><br><div class='social'><a target='_blank' href='https://drive.google.com/file/d/1wkoVxhhpTbKavk5NhgWnOZIPWMCQVs8l/view?usp=share_link'><img class='socialItemI' alt=''></div> </a></div>");
+            sendTextMessage("css <br><br><div class='social'><a target='_blank' href='https://drive.google.com/file/d/1wkoVxhhpTbKavk5NhgWnOZIPWMCQVs8l/view?usp=share_link'> <div class='socialItem'><img class='socialItemI' alt=''></div> </a></div>");
             break;        
         case "c++":
-            sendTextMessage("c++ <br><br><div class='social'><a target='_blank' href='https://drive.google.com/file/d/1QBZt6ahN97vA7_kumFB58H4ZfFht9Wsn/view?usp=share_link'><img class='socialItemI' alt=''></div> </a></div>");
+            sendTextMessage("c++ <br><br><div class='social'><a target='_blank' href='https://drive.google.com/file/d/1QBZt6ahN97vA7_kumFB58H4ZfFht9Wsn/view?usp=share_link'> <div class='socialItem'><img class='socialItemI' alt=''></div> </a></div>");
             break;
         case "cebook":
-            sendTextMessage("c <br><br><div class='social'><a target='_blank' href='https://drive.google.com/file/d/1ra8XIHlG7-PJrfrJ87hKGdp4oMi57XQk/view?usp=share_link'><img class='socialItemI' alt=''></div> </a></div>");
+            sendTextMessage("c <br><br><div class='social'><a target='_blank' href='https://drive.google.com/file/d/1ra8XIHlG7-PJrfrJ87hKGdp4oMi57XQk/view?usp=share_link'> <div class='socialItem'><img class='socialItemI' alt=''></div> </a></div>");
             break;
         
 
@@ -314,7 +314,7 @@ function waitAndResponce(inputText) {
             break;
         default:
             setTimeout(() => {
-                sendTextMessage("Hey I couldn't catch you...😢<br>Send 'help' to know more about usage of this chatbot....");
+                sendTextMessage("Hey I couldn't catch you...😢<br>Send 'help' to know more about usage of this chatbot.... .And remember one thing this is a rule based chatbot not a conversional chatbot... ");
             }, 2000);
             break;
     }
